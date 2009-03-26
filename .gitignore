@@ -1,0 +1,14 @@
+*.dll
+*.exe
+*.exp
+*.lib
+*.obj
+*.pch
+*.res
+*~
+dlldata.c
+interface.h
+interface.tlb
+interface.tlh
+interface_i.c
+interface_p.c

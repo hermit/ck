@@ -905,8 +905,12 @@ static bool get_str_arg(WCHAR dst[], WCHAR* input, int& idx, int max){
 		else if(c=='\t'){
 			c=' ';
 		}
+		else if(c==7){	// BEL
+			idx++;
+			break;
+		}
 		else if(c<='\x1F' || c==L'\x9C'){
-			//BEL(\07), ST(\9C)
+			//ST(\9C)
 			break;
 		}
 		idx++;

@@ -1,4 +1,9 @@
-﻿2007-09-19  Kazuo Ishii  <k-ishii@wb4.so-net.ne.jp>
+﻿2009-03-26  Katsuhiro Hermit Endo  <hermit@koka-in.org>
+
+	* pty.cpp (Ck)
+	エスケープシーケンスの終端のBELを残してしまうバグを修正。
+
+2007-09-19  Kazuo Ishii  <k-ishii@wb4.so-net.ne.jp>
 	Version 3.2.1
 	文字幅の取得方法を変更。
 
