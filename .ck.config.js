@@ -10,7 +10,7 @@ Config.tty.display_encoding = Encoding.SJIS | Encoding.EUCJP | Encoding.UTF8;
 Config.tty.scroll_key = 1;
 Config.tty.scroll_output = 0;
 Config.tty.bs_as_del = 0;
-Config.tty.use_bell = 0;
+Config.tty.use_bell = 1;
 Config.tty.cjk_width = 1;
 
 Config.accelkey.new_shell    = Keys.ShiftL | Keys.CtrlL | Keys.N;
